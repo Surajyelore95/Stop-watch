@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    height: 100%;
+    font-size: 20px;
+}
+
+.container{
+color: aliceblue;
+text-align: center;
+}
+
+#seconds,
+#seprator,
+#miliseconds{
+    font-size: 80px;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* 
+#start:hover{
+    background-color: rgb(84, 87, 86);
+ }
+#stop:hover{
+    background-color: rgb(84, 87, 86);
+ }
+#restart:hover{
+   background-color: rgb(84, 87, 86);
+} */
+
+button:hover{
+    background-color: rgb(84, 87, 86);
+}
